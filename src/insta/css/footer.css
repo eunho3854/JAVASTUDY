@@ -1,0 +1,31 @@
+footer {
+    padding: 50px 100px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.footer__ul a {
+    text-decoration: none;
+    color: #00376B;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer__last {
+    font-size: 13px;
+    color: #958295;
+}
